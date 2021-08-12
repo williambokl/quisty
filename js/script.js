@@ -326,30 +326,19 @@
 		$('.main-slider-carousel').owlCarousel({
 			animateOut: 'fadeOut',
     		animateIn: 'fadeIn',
-			loop:true,
+			loop:false,
 			margin:0,
-			nav:true,
+			nav:false,
 			autoHeight: true,
-			smartSpeed: 500,
+			smartSpeed: 0,
 			autoplay: true,
-			autoplayTimeout: 6000,
+			autoplayTimeout: 0,
 			navText: [ '<span class=""></span>', '<span class=""></span>' ],
 			responsive:{
 				0:{
 					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:1
-				},
-				1024:{
-					items:1
-				},
-				1200:{
-					items:1
 				}
+				
 			}
 		});    		
 	}
