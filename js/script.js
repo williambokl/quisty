@@ -404,7 +404,7 @@
 			loop:true,
 			margin:0,
 			nav:true,
-			autoplay:false,
+			autoplay:true,
 			smartSpeed: 500,
 			navText: [ '<span class=""></span>', '<span class=""></span>' ],
 			responsive:{
